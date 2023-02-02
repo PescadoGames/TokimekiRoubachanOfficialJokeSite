@@ -15,7 +15,7 @@
 <meta property="og:locale" content="ja_JP">
 <link rel="stylesheet" type="text/css" href="https://linux.pescadogames.com/assets/styles/reset.css">
 <link rel="stylesheet" href="https://www.pescadogames.com/assets/styles/footercss.css">
-<link rel="stylesheet" href="assets/styles/bugreport.css">
+<link rel="stylesheet" href="https://support.pescadogames.com/assets/styles/bugreport.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@300&family=M+PLUS+1p:wght@100&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
@@ -118,9 +118,9 @@
 </footer>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" type="42deb792d379577370434d48-text/javascript"></script>
-<script src="https://linux.pescadogames.com/assets/js/status.js" type="42deb792d379577370434d48-text/javascript"></script>
-<script type="42deb792d379577370434d48-text/javascript">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://linux.pescadogames.com/assets/js/status.js"></script>
+<script>
     let text_form = document.getElementById('errorcodeinput');
 
     text_form.addEventListener('keypress', test_ivent);
@@ -132,7 +132,7 @@
       return false;
     }
   </script>
-<script type="42deb792d379577370434d48-text/javascript">
+<script>
     const ham = $('#js-hamburger');
     const nav = $('#js-nav');
     ham.on('click', function () { //ハンバーガーメニューをクリックしたら
@@ -141,7 +141,7 @@
 
     });
   </script>
-<script type="42deb792d379577370434d48-text/javascript">
+<script>
     $('#contact').on('click', function () {
       if ($('.contact').hasClass('contactdeactive')) {
         $('.contact').removeClass("contactdeactive");
@@ -150,7 +150,7 @@
       }
     });
   </script>
-<script type="42deb792d379577370434d48-text/javascript">
+<script>
     //アコーディオンをクリックした時の動作
     $('.title').on('click', function () {//タイトル要素をクリックしたら
       var findElm = $(this).next(".box");//直後のアコーディオンを行うエリアを取得し
