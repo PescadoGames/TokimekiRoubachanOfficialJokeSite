@@ -54,38 +54,10 @@
 </div>
 </header>
 <div class="Osirase">
-<div class="OsiraseContainer HidariNoColorBarGray OsiraseMarginDelete">
-<img src="https://linux.pescadogames.com/assets/image/StatusInfomationMark.svg">
-<h2>現在一部のゲームは早期アクセスとしてリリースされています。その際に、エラーが出た際にエラーコードを表示するように設計しました。
-<br>このページでは、そのエラーコードをどのように対処するのかが書いてあります。ぜひご参考ください。
-</h2>
-</div>
-<div class="OsiraseContainer HidariNoColorBarYellow">
-<img src="https://www.pescadogames.com/assets/image/Warning.png">
-<h2>注意:エラーコードは特定の状況でのみ表示されます。ゲーム内のエラーに関しては、出るものと出ないものがあります。
-<br>また、このエラーコード以外にも何かご不明な点がございましたらお気軽にご相談ください。
-</h2>
-</div>
-<h1 class="mainTitlePC">PescadoGamesサポートへようこそ</h1>
-<h1 class="mainTitleSP">PescadoGames<br>サポートへ<br>ようこそ</h1>
+<h1 class="mainTitlePC">トキメキ☆ロウバチャン☆公式サイトへようこそ</h1>
+<h1 class="mainTitleSP">トキメキ☆<br>ロウバチャン☆<br>公式サイトへ<br>ようこそ</h1>
 <div class="SearchCont">
-<input id="errorcodeinput" type="text" placeholder="検索したいサポート情報を入力してください">
-<span>入力する際の注意:エラーコードを入力する際は、必ず"E"も含めてください。</span>
-</div>
-</div>
-<div id="container">
-<h2 class="ProcateTitlePC">ご覧になりたいサポート情報を選択してください。</h2>
-<h2 class="ProcateTitleSP">ご覧になりたいサポート情報を<br>選択してください。</h2>
-<div class="categorycont">
-<a class="ProductCategory GameCate" href="game/">
-<h2>ゲーム一般</h2>
-</a>
-<a class="ProductCategory" href="errorcode/">
-<h2>エラーコード</h2>
-</a>
-<a class="ProductCategory NowStatusCate" href="https://status.pescadogames.com/">
-<h2>現在のステータス</h2>
-</a>
+<span>トキメキ☆ロウバチャン☆は開発の予定はありません。</span>
 </div>
 </div>
 
@@ -120,27 +92,6 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://linux.pescadogames.com/assets/js/status.js"></script>
-<script>
-    let text_form = document.getElementById('errorcodeinput');
-
-    text_form.addEventListener('keypress', test_ivent);
-
-    function test_ivent(e) {
-      if (e.keyCode === 13) {
-        window.location.href = "https://www.google.com/search?q=site%3Asupport.pescadogames.com+" + text_form.value;
-      }
-      return false;
-    }
-  </script>
-<script>
-    const ham = $('#js-hamburger');
-    const nav = $('#js-nav');
-    ham.on('click', function () { //ハンバーガーメニューをクリックしたら
-      ham.toggleClass('active'); // ハンバーガーメニューにactiveクラスを付け外し
-      nav.toggleClass('active'); // ナビゲーションメニューにactiveクラスを付け外し
-
-    });
-  </script>
 <script>
     $('#contact').on('click', function () {
       if ($('.contact').hasClass('contactdeactive')) {
